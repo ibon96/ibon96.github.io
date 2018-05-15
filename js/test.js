@@ -142,7 +142,7 @@ game = {
   loadAssets: function() {
 
   this.soundtrack = new Howl({
-    src: ['http://localhost:80/tests/soundtrack.m4a'],
+    src: ['https://ibon96.github.io/tests/soundtrack.m4a'],
     volume: 1,
     onload: () => {
       this.soundtrack.play();
